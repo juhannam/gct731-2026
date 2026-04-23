@@ -58,7 +58,7 @@ You will notice that the template-based approach yields **highly jittery** predi
 **Submission Requirements for Q2:**
 Write a detailed report answering the following:
 * How much did the HMM improve the CSR and the **Over-segmentation** (temporal continuity) score?
-* Compare three types of transition probability matrices: **uniform**, **estimated** (data-driven), and **transpose-invariant**. Use the pre-computed Beatles matrices provided in the [HMM-based Chord Recognition Section](https://www.audiolabs-erlangen.de/resources/MIR/FMP/C5/C5S3_ChordRec_HMM.html).
+* Compare three types of transition probability matrices: **uniform**, **estimated** (data-driven), and **transpose-invariant**. Use the pre-computed Beatles matrices provided in the [HMM-based Chord Recognition Section](https://www.audiolabs-erlangen.de/resources/MIR/FMP/C5/C5S3_ChordRec_HMM.html). Note the the data-driven transition probability matrix is not necessarily working best for this song. 
 * Summarize your understanding of CSR versus segmentation accuracy. How does the HMM trade off between the two?
 * **Integration (Bonus):** Explore how using the **beat-aligned chroma** (syncing chroma to the beats found in Q1 by averaging chroma vectors within one beat) affects the chord recognition results. This does not necessariliy improve the performance but it is worth trying. 
 
